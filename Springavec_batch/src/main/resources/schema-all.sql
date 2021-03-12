@@ -1,0 +1,8 @@
+DROP TABLE book IF EXISTS;
+
+CREATE TABLE book  (
+    id VARCHAR(10) IDENTITY NOT NULL PRIMARY KEY,
+    title VARCHAR(40),
+    author VARCHAR(20),
+    releaseDate VARCHAR(30)
+);
